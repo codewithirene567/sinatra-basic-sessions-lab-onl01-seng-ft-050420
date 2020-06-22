@@ -15,6 +15,7 @@ class App < Sinatra::Base
     #take in params from the form and add it to the session
     #hash
     @variable = params[:item][:sessions]
+  end
     #key should be item
 #store the session hash in an instance variable that you can
 #access in the views
