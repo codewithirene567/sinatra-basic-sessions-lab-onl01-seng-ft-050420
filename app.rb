@@ -15,8 +15,8 @@ class App < Sinatra::Base
     #take in params from the form and add it to the session
     #hash
     session["socks"] = "socks"
-    #@session = session
     @session = params[:item]
+    @session = session[:item]
 erb :'views/checkout'
   end
     #key should be item
