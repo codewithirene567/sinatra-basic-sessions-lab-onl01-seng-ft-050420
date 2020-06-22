@@ -16,7 +16,7 @@ class App < Sinatra::Base
     #hash
     session["socks"] = "socks"
     @session = session
-    @session = params[:item] 
+    @session = params[:item]
 erb :checkout
   end
     #key should be item
