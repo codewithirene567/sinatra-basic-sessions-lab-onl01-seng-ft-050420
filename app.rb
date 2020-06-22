@@ -7,7 +7,8 @@ class App < Sinatra::Base
     set :session_secret, "secret" #creates session id
   end
 
-  get '/'
+  get '/' do
   erb :index
+end
 
 end
