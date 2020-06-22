@@ -17,7 +17,7 @@ class App < Sinatra::Base
 
     @session = params[:item]
   session[:item] = @session
-  binding.pry
+  
     erb :'views/checkout'
   end
     #key should be item
