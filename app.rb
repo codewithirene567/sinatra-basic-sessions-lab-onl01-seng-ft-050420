@@ -16,7 +16,7 @@ class App < Sinatra::Base
     #hash
 
     @session = params[:item]
-    @session = session[:item]
+  session[:item] = @session 
     erb :'views/checkout'
   end
     #key should be item
