@@ -14,7 +14,7 @@ class App < Sinatra::Base
   post '/checkout' do
     #take in params from the form and add it to the session
     #hash
-    @variable = params[:item][:sessions]
+    @session = params[:item][:sessions]
   end
     #key should be item
 #store the session hash in an instance variable that you can
