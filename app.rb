@@ -17,7 +17,7 @@ class App < Sinatra::Base
     session["socks"] = "socks"
     @session = session
     @session = params[:item] 
-
+erb :checkout
   end
     #key should be item
 #store the session hash in an instance variable that you can
