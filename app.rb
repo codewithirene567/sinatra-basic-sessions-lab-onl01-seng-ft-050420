@@ -6,5 +6,5 @@ class App < Sinatra::Base
     enable :sessions #enables a built in feature for sessions
     set :session_secret, "secret" #creates session id
   end
-  
+
 end
