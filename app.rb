@@ -10,6 +10,10 @@ class App < Sinatra::Base
   get '/' do
   erb :index
   end
-  
+
+  post '/checkout' do
+    #take in params from the form and add it to the session
+    #hash
+    #key should be item
 
 end
