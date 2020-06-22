@@ -16,7 +16,7 @@ class App < Sinatra::Base
     #hash
 
     @session = params[:item]
-  session[:item] = @session 
+  session[:item] = @session
   binding.pry
     erb :'views/checkout'
   end
