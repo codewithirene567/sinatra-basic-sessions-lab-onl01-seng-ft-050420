@@ -15,6 +15,7 @@ class App < Sinatra::Base
     #take in params from the form and add it to the session
     #hash
     session["socks"] = "socks"
+    params[:item]
     @session = session
   end
     #key should be item
